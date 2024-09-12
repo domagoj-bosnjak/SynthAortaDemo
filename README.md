@@ -4,7 +4,7 @@ This repository contains the demo dataset for the paper "SynthAorta: A 3D Mesh D
 The final dataset will be made available post-publication, on the repository of the Graz University of Technology.
 
 # Examples
-The code currently contains one .msh example of a mesh, which can be viewed with the open source tool [GMSH](https://gmsh.info/).
+The code currently contains 100 .txt examples of meshes, with separately save points and connectivity matrix. This is due to the fact that the same connectivity matrix is used in all examples. Additionally, one `.msh` example of a mesh, which can be viewed with the open source tool [GMSH](https://gmsh.info/). The code below provides a way to extract the 100 examples to MATLAB, or to .msh afterwards.
 
 # Usage
 In order to manipulate other meshes, use the two functions provided in the Code folder.
