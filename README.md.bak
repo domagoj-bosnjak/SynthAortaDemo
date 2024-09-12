@@ -12,13 +12,13 @@ In order to manipulate other meshes, use the two functions provided in the Code 
 ```
 Mesh = MeshExtractFromFiles(xyzFilename, ConnMatFilename, ConnMatBdryFilename)
 ```
-where the three filenames should be the paths of the desired example in `Data`, as well as `Data\ConnMat.txt` and `Data\ConnMatBdry.txt`. This will yield a MATLAB structure of the mesh.
+where the three filenames should be the paths of the desired example in Data, as well as Data\ConnMat.txt and Data\ConnMatBdry.txt. This will yield a MATLAB structure of the mesh.
 
-Afterwards, the mesh can be exported to OutputFilename (`.msh` type) using
+Afterwards, the mesh can be exported to OutputFilename (.msh type) using
 ```
 Mesh3dLinHexaToMSH(Mesh, OutputFilename, [], []);
 ```
-More functionality as well as significantly more examples will be provided post-publication.
+This is the functionality of the demo code. More functionality as well as significantly more examples will be provided post-publication.
 
 # Authors
 [Domagoj Bošnjak](https://scholar.google.com/citations?user=cTvCvggAAAAJ&hl=en)
