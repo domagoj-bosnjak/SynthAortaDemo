@@ -5,10 +5,13 @@ function Mesh3dLinHexaToMSH(Mesh3dHexaLin, OutputFilename, ...
 %% Mesh.xx           (NumNodes x 1)
 %% Mesh.yy           (NumNodes x 1)
 %% Mesh.zz           (NumNodes x 1)
-%% Mesh.ConnMat      (NumElems x 8)    --> can be left empty []
-%% Mesh.ConnMatBdry (NumElemsBdry x 4) --> can be left empty []
+%% Mesh.ConnMat      (NumElems x 8)     % 8 Nodes per hex
+%% Mesh.ConnMatBdry  (NumElemsBdry x 4) % 4 Nodes per quad 
 %% into the well known .msh format, with the documentation:
 %% https://gmsh.info/doc/texinfo/gmsh.html#File-formats 
+
+%% Element and surface(boundary) elements may be assigned arbitrary tags, otherwise
+%% ElemTags and ElemTagsBdry can be empty []
 
 %% The mesh is assumed to be linear and hexahedral. Arbitrary element tags
 %% can be assigned if necessary, otherwise they can be left empty
