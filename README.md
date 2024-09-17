@@ -20,6 +20,10 @@ Mesh3dLinHexaToMSH(Mesh, OutputFilename, [], []);
 ```
 More functionality as well as significantly more examples will be provided post-publication.
 
+# Paper
+If you are using this work, consider citing the original paper, currently available only as a preprint:
+[SynthAorta: A 3D Mesh Dataset of Parametrized Physiological Healthy Aortas](https://arxiv.org/abs/2409.08635)
+
 # Authors
 [Domagoj Bošnjak](https://scholar.google.com/citations?user=cTvCvggAAAAJ&hl=en)
 
