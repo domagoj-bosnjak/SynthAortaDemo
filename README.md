@@ -1,5 +1,5 @@
 # [OBSOLETE] 
-This repository will soon be removed, as the full dataset has been released; follow the updates at the new repo https://github.com/domagoj-bosnjak/SynthAorta
+This repository will soon be removed, as the full dataset has been released at the following link https://repository.tugraz.at/records/0zr9z-tek56 (DOI: 10.3217/0zr9z-tek56); follow the updates at the new repo https://github.com/domagoj-bosnjak/SynthAorta
 
 # SynthAorta Demo
 This repository contains the demo dataset for the paper "SynthAorta: A 3D Mesh Dataset of Parametrized Physiological Healthy Aortas".
